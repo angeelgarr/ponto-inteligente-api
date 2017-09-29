@@ -54,7 +54,7 @@ public class Funcionario implements Serializable {
 		this.id = id;
 	}
 
-	@Column(name = "name", nullable = false)
+	@Column(name = "nome", nullable = false)
 	public String getNome() {
 		return nome;
 	}
